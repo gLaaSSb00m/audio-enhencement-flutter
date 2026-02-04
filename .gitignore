@@ -22,3 +22,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS files
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tooling
+.qodo/
+
+# Build/output caches
+build/
+.cache/
+.parcel-cache/
+coverage/
+
+# Hosting/platform (optional)
+.vercel/
+.netlify/
