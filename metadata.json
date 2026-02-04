@@ -1,0 +1,7 @@
+{
+  "name": "CrystalClear Audio Enhancer",
+  "description": "A high-end audio processing suite that leverages a specialized enhancement API to remove noise and clarify speech, featuring real-time recording and AI-driven insights.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
