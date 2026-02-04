@@ -206,7 +206,6 @@
     }
     requestAnimationFrame(loop);
   }
-  }
 
   audioEl.addEventListener('play', async () => {
     ensureAudioGraph();
