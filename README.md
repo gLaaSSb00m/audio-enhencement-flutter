@@ -34,6 +34,34 @@ flutter run
 flutter run -d chrome
 ```
 
+## User flow (screenshots)
+
+1. **Select file**
+   - Tap **Select file**.
+   - ![select files](ScreenShot/select files.jpg)
+
+2. **Enhanced Audio - tap Enhance**
+   - After selecting a file, tap **Enhance**.
+   - ![tap enhanced audio](ScreenShot/tap enhanced audio.jpg)
+
+3. **After enhancement is requested - load & play button becomes available**
+   - Wait for the enhanced audio to load.
+   - ![after enhenced load and play](ScreenShot/after enhenced load and play.jpg)
+
+4. **Tap Load & Play**
+   - Tap **Load and Play**.
+   - ![after load and play then tap to play](ScreenShot/after load and play then tap to play.jpg)
+
+5. **Tap Play (listening to enhanced audio)**
+   - Tap **Play** to listen.
+   - ![tap to play](ScreenShot/tap to play.jpg)
+
+6. **Remove background (result)**
+   - Use the enhanced output to remove background and improve clarity.
+   - ![listening result](ScreenShot/remove background.jpg)
+
+> Note: screenshot filenames must match the ones in your `ScreenShot/` folder. (If any screenshot is missing or has a different name, rename it or update the links.)
+
 ## Notes
 
 - This project is designed to call your own enhancement service. Do **not** hardcode API keys in the client.
