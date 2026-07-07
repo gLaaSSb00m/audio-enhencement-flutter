@@ -38,19 +38,19 @@ flutter run -d chrome
 
 1. **Select file**
    - Tap **Select file**.
-   <img src="ScreenShot/select%20files.jpg" width="480" alt="select files" />
+   <img src="ScreenShot/select%20files.jpg" width="280" alt="select files" />
 
 2. **Enhanced Audio - tap Enhance**
    - After selecting a file, tap **Enhance**.
-   <img src="ScreenShot/tap%20enhanced%20audio.jpg" width="480" alt="tap enhanced audio" />
+   <img src="ScreenShot/tap%20enhanced%20audio.jpg" width="280" alt="tap enhanced audio" />
 
 3. **After enhancement is requested - load & play button becomes available**
    - Wait for the enhanced audio to load.
-   <img src="ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg" width="480" alt="after enhenced load and play" />
+   <img src="ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg" width="280" alt="after enhenced load and play" />
 
 4. **Tap Load & Play**
    - Tap **Load and Play**.
-   <img src="ScreenShot/after%20enhenced%20load%20and%20play.jpg" width="480" alt="after load and play then tap to play" />
+   <img src="ScreenShot/after%20enhenced%20load%20and%20play.jpg" width="280" alt="after load and play then tap to play" />
 
 5. **Play (listening to enhanced audio)**
    - Tap **Play** to listen to the enhanced audio.
