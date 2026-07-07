@@ -1,20 +1,29 @@
 # CrystalClear AI Audio Enhancer
 
-A Flutter application for enhancing audio (and recording when available) by sending audio to a local enhancement API.
+A Flutter application for enhancing audio (and recording when available) by sending audio to an enhancement API and then playing/downloading the enhanced result.
 
 ## Features
 
-- Upload an audio file
+- Select an audio file
 - (Optional) Record audio from the microphone
-- Play / pause the input
-- Send audio to an enhancement endpoint
-- Cancel enhancement
-- Play and download the enhanced result
+- Play / pause the input audio
+- Send the selected audio to an enhancement endpoint
+- Cancel an in-progress enhancement request
+- Load and play the enhanced audio
+- Save/download the enhanced output
+
+## Architecture (high level)
+
+- The app uploads the selected/recorded audio as `multipart/form-data`.
+- The enhancement service returns enhanced audio bytes.
+- The app writes the returned bytes to a temporary `.wav` file and uses Flutter audio playback (`just_audio`) to play it.
 
 ## Prerequisites
 
 - Flutter (stable)
-- An enhancement API running locally (or adjust the endpoint in the app code as needed)
+- An enhancement API endpoint that accepts an uploaded file and returns enhanced audio bytes.
+
+> The API URL is defined in the app code. If you host your own service, update the endpoint accordingly.
 
 ## Setup
 
@@ -25,11 +34,13 @@ flutter pub get
 ## Run
 
 ### Mobile
+
 ```bash
 flutter run
 ```
 
 ### Web
+
 ```bash
 flutter run -d chrome
 ```
@@ -44,26 +55,24 @@ flutter run -d chrome
    - After selecting a file, tap **Enhance**.
    <img src="ScreenShot/tap%20enhanced%20audio.jpg" width="280" alt="tap enhanced audio" />
 
-3. **After enhancement is requested - load & play button becomes available**
-   - Wait for the enhanced audio to load.
-   <img src="ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg" width="280" alt="after enhenced load and play" />
+3. **During enhancement**
+   - Wait for the enhancement request to complete (progress is shown).
+   <img src="ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg" width="280" alt="after enhancement" />
 
-4. **Tap Load & Play**
-   - Tap **Load and Play**.
+4. **Load & Play**
+   - Tap **Load and Play** when the enhanced audio is ready.
    <img src="ScreenShot/after%20enhenced%20load%20and%20play.jpg" width="280" alt="after load and play then tap to play" />
 
-5. **Play (listening to enhanced audio)**
-   - Tap **Play** to listen to the enhanced audio.
+5. **Play the enhanced result**
+   - Tap **Play** to listen.
 
-6. **Remove background (enhancement result)**
-   - Use the enhanced output to remove background / improve clarity.
+6. **Use the enhanced output**
+   - Use the enhanced result for clarity/improved audio quality.
 
-> Note: The screenshot for steps 5–6 is not present as a separate JPG. The “after load and play then tap to play” screenshot contains the subsequent markup for tapping Play and the listening result.
+## Notes / Considerations
 
-## Notes
-
-- This project is designed to call your own enhancement service. Do **not** hardcode API keys in the client.
-- If recording is enabled on Android, ensure the microphone permission is configured via the relevant platform files.
+- Do **not** hardcode API keys in the Flutter client. Put secrets in your server.
+- If recording is enabled on Android, ensure microphone permission is configured for the target platforms.
 
 ## License
 
