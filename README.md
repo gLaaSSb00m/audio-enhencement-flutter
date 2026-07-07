@@ -57,7 +57,7 @@ flutter run -d chrome
 
 3. **During enhancement**
    - Wait for the enhancement request to complete (progress is shown).
-   <img src="ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg" width="280" alt="after enhancement" />
+
 
 4. **Load & Play**
    - Tap **Load and Play** when the enhanced audio is ready.
@@ -65,6 +65,7 @@ flutter run -d chrome
 
 5. **Play the enhanced result**
    - Tap **Play** to listen.
+   <img src="ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg" width="280" alt="after enhancement" />
 
 6. **Use the enhanced output**
    - Use the enhanced result for clarity/improved audio quality.
