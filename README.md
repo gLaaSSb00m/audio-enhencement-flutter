@@ -50,17 +50,15 @@ flutter run -d chrome
 
 4. **Tap Load & Play**
    - Tap **Load and Play**.
-   - ![after load and play then tap to play](ScreenShot/after load and play then tap to play.jpg)
+   - ![after load and play then tap to play](ScreenShot//after load and play then tap to play.jpg)
 
-5. **Tap Play (listening to enhanced audio)**
-   - Tap **Play** to listen.
-   - ![tap to play](ScreenShot/tap to play.jpg)
+5. **Play (listening to enhanced audio)**
+   - Tap **Play** to listen to the enhanced audio.
 
-6. **Remove background (result)**
-   - Use the enhanced output to remove background and improve clarity.
-   - ![listening result](ScreenShot/remove background.jpg)
+6. **Remove background (enhancement result)**
+   - Use the enhanced output to remove background / improve clarity.
 
-> Note: screenshot filenames must match the ones in your `ScreenShot/` folder. (If any screenshot is missing or has a different name, rename it or update the links.)
+> Note: The screenshot for steps 5–6 is not present as a separate JPG. The “after load and play then tap to play” screenshot contains the subsequent markup for tapping Play and the listening result.
 
 ## Notes
 
