@@ -1,0 +1,40 @@
+name: audioenhencementflutterapplication
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"  # Updated to a stable, recent version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # File handling
+  file_picker: ^10.3.10
+  
+  # Audio playback
+  just_audio: ^0.10.5
+  
+  # Audio recording
+  record: ^6.2.0
+  
+  # Networking
+  dio: ^5.8.0+1
+  
+  # Permissions
+  permission_handler: ^12.0.1
+  
+  # File paths
+  path_provider: ^2.1.5
+  
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
