@@ -25,11 +25,13 @@ flutter pub get
 ## Run
 
 ### Mobile
+
 ```bash
 flutter run
 ```
 
 ### Web
+
 ```bash
 flutter run -d chrome
 ```
@@ -38,27 +40,21 @@ flutter run -d chrome
 
 1. **Select file**
    - Tap **Select file**.
-   - ![select files](ScreenShot/select%20files.jpg)
+   - ![select files](ScreenShot/gh-resized/select%20files.jpg)
 
 2. **Enhanced Audio - tap Enhance**
    - After selecting a file, tap **Enhance**.
-   - ![tap enhanced audio](ScreenShot/tap%20enhanced%20audio.jpg)
+   - ![tap enhanced audio](ScreenShot/gh-resized/tap%20enhanced%20audio.jpg)
 
 3. **After enhancement is requested - load & play button becomes available**
    - Wait for the enhanced audio to load.
-   - ![after enhenced load and play](ScreenShot/after%20load%20and%20play%20then%20tap%20to%20play.jpg)
+   - ![after enhenced load and play](ScreenShot/gh-resized/after%20enhenced%20load%20and%20play.jpg)
 
 4. **Tap Load & Play**
    - Tap **Load and Play**.
-   - ![after load and play then tap to play](ScreenShot/after%20enhenced%20load%20and%20play.jpg)
+   - ![after load and play then tap to play](ScreenShot/gh-resized/after%20enhenced%20load%20and%20play%20then%20tap%20to%20play.jpg)
 
-5. **Play (listening to enhanced audio)**
-   - Tap **Play** to listen to the enhanced audio.
-
-6. **Remove background (enhancement result)**
-   - Use the enhanced output to remove background / improve clarity.
-
-> Note: The screenshot for steps 5–6 is not present as a separate JPG. The “after load and play then tap to play” screenshot contains the subsequent markup for tapping Play and the listening result.
+> Note: Steps 5–6 (tap Play / remove background) are shown inside the last screenshot above.
 
 ## Notes
 
