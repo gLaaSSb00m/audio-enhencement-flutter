@@ -45,7 +45,14 @@ flutter run
 flutter run -d chrome
 ```
 
+## App source / where the apps were found
+
+The reference where the apps were found is here:
+- [Download Apps](https://drive.google.com/file/d/10aseyOg_ZM7HSBZYG3Vb34Xuwq3L6Hxu/view?usp=sharing)
+
 ## User flow (screenshots)
+
+
 
 1. **Select file**
    - Tap **Select file**.
